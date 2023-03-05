@@ -2,7 +2,7 @@ $(".mark-btn").click(function(){
     $(".unread").removeClass("unread");
 
     $(".notification-count").fadeOut(300, function(){
-        $(this). remove();
+        $(this).remove();
     });
 });
 
@@ -14,7 +14,7 @@ $(".unread-1").click(function(){
     classes = classes - 1
     if (classes === 0) {
         $(".notification-count").fadeOut(300, function(){
-        $(this). remove();
+        $(this).remove();
     });
     }
     else {
@@ -27,7 +27,7 @@ $(".unread-2").click(function(){
     classes = classes - 1
     if (classes === 0) {
         $(".notification-count").fadeOut(300, function(){
-        $(this). remove();
+        $(this).remove();
     });
     }
     else {
