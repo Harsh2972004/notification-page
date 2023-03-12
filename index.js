@@ -9,7 +9,7 @@ $(".mark-btn").click(function(){
 var classes= $('.unread').length;
 console.log(classes);
 
-$(".unread-1").click(function(){
+$(".unread-1").one("click", function(){
     $(".unread-1").removeClass("unread");
     classes = classes - 1
     if (classes === 0) {
@@ -22,7 +22,7 @@ $(".unread-1").click(function(){
     }
 });
 
-$(".unread-2").click(function(){
+$(".unread-2").one("click", function(){
     $(".unread-2").removeClass("unread");
     classes = classes - 1
     if (classes === 0) {
@@ -35,7 +35,7 @@ $(".unread-2").click(function(){
     }
 });
 
-$(".unread-3").click(function(){
+$(".unread-3").one("click", function(){
     $(".unread-3").removeClass("unread");
     classes = classes - 1
     if (classes === 0) {
